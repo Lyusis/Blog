@@ -1,3 +1,8 @@
+---
+layout: mypost
+title: Hello World
+categories: [Hello]
+---
 # Hello World
 ```java
 class Lyusis{
