@@ -127,14 +127,14 @@ input:-webkit-autofill {
 }
 .header .menu a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 9px;
   white-space: nowrap;
   user-select: auto;
 }
 .footer {
   padding: 15px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .footer a {
   text-decoration: underline;
@@ -187,6 +187,6 @@ input:-webkit-autofill {
   }
   .header .menu a {
     margin: 2px 5px;
-    font-size: 15px;
+    font-size: 17px;
   }
 }
