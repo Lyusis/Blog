@@ -1,6 +1,15 @@
 html.dark {
   color: #c9d1d9;
   background: #0d1117;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+  z-index: -1;
 }
 
 html.dark ::selection {
