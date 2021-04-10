@@ -3,7 +3,6 @@ layout: mypost
 title: Hello World
 categories: [Hello]
 ---
-# Hello World
 ```java
 class Lyusis{
   public static void main(String[] args){
