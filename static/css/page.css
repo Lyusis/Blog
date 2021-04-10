@@ -130,7 +130,7 @@
 .bg {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: page;
   top: 0;
   left: 0;
   background: url("../img/background.jpg") no-repeat;
