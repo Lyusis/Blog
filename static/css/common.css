@@ -1,9 +1,4 @@
 @font-face {
-  font-family: 'Consolas';
-  font-display: fallback;
-  src: url('../font/consola.ttf');
-}
-@font-face {
   font-family: 'FiraCode NF';
   font-display: fallback;
   src: url("../font/FiraCodeNFMono.ttf");
