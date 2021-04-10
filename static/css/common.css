@@ -3,6 +3,11 @@
   font-display: fallback;
   src: url('../font/consola.ttf');
 }
+@font-face {
+  font-family: 'FiraCode NF';
+  font-display: fallback;
+  src: url("../font/FiraCodeNFMono.ttf");
+}
 
 html {
   color: #333333;
@@ -15,7 +20,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: Consolas, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: FiraCode NF, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
   max-width: 680px;
