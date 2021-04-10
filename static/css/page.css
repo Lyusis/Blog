@@ -130,10 +130,11 @@
 .bg {
   height: 100%;
   width: 100%;
-  position: page;
+  position: absolute;
   top: 0;
   left: 0;
   background: url("../img/background.jpg") no-repeat;
   background-size: cover;
   opacity: 0.2;
+  z-index: -1;
 }
