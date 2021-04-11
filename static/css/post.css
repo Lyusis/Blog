@@ -23,17 +23,19 @@
   margin: 0 auto;
   max-width: 30%;
   color: #8064a9;
-  padding-bottom:3px;
-  border-bottom:2px solid;
+  padding-bottom:2px;
+  border-bottom:2px solid #8064a9;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 2.25em;
   text-align: center;
   position: relative;
 }
 .page-post .post h2 {
   color: #8064a9;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.75em;
+  border-left: 0.4em solid #8064a9;
+  border-bottom: 1px solid #8064a9;
   position: relative;
 }
 .page-post .post h1::before,
@@ -48,8 +50,19 @@
 .page-post h5,
 .page-post h6 {
   color: #8064a9;
-  font-size: 18px;
   font-weight: normal;
+}
+.page-post h3 {
+  font-size: 1.5em;
+}
+.page-post h4 {
+  font-size: 1.3em;
+}
+.page-post h5 {
+  font-size: 1.2em;
+}
+.page-post h6 {
+  font-size: 1.1em;
 }
 .page-post blockquote {
   border-left: 3px solid #333333;
