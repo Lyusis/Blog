@@ -23,10 +23,10 @@
   color: transparent;
   background-image: linear-gradient(to top, #a18cd1 0%, #b35d9b 100%);
   -webkit-background-clip: text;
-  line-height: 90px;
-  margin: 0 auto;
+  line-height: 50px;
+  margin: 30px 0 auto;
   font-weight: bolder;
-  font-size: 2.25em;
+  font-size: 2.75em;
   text-align: center;
   position: relative;
 }
