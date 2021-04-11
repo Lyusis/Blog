@@ -3,8 +3,6 @@ layout: mypost
 title: Hello World
 categories: [Hello]
 ---
-# Hello World By Blog
-
 ## Hello World by Java
 
 ```java
