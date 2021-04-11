@@ -87,10 +87,12 @@
   line-height: 1;
 }
 .page-post pre {
+
   font-size: 0;
   padding: 10px;
   overflow: auto;
-  border-radius: 2px;
+  border: 1px solid #eee;
+  border-radius: 5px;
   max-height: 610px;
   -moz-tab-size: 4;
   -o-tab-size: 4;
