@@ -4,6 +4,12 @@
   src: url("../font/FiraCodeNFMono.ttf");
 }
 
+.bg{
+  position: absolute;
+  background: url("../img/background.jpg") no-repeat center;
+  opacity: 0.3;
+}
+
 html {
   color: #8064a9;
   background: #f8f8f2;
