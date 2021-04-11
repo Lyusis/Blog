@@ -37,13 +37,13 @@
   border-bottom: 1px solid #8064a9;
   position: relative;
 }
-.page-post .post h1::before,
-.page-post .post h2::before {
-  /*content: '#';*/
-  top: 0;
-  font-weight: bold;
-  padding-right: 6px;
-}
+/*.page-post .post h1::before,*/
+/*.page-post .post h2::before {*/
+/*  content: '#';*/
+/*  top: 0;*/
+/*  font-weight: bold;*/
+/*  padding-right: 6px;*/
+/*}*/
 .page-post h3,
 .page-post h4,
 .page-post h5,
