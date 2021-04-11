@@ -6,7 +6,7 @@
 
 html {
   color: #8064a9;
-  background: #f8f8f2 url("../img/background.jpg") center;
+  background: rgba(248, 248, 242, 0.2) url("../img/background.jpg") center no-repeat;
   opacity: 0.2;
   scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
