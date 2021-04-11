@@ -20,13 +20,13 @@
   width: 100%;
 }
 .page-post .post h1{
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 24px;
   text-align: center;
   position: relative;
 }
 .page-post .post h2 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 18px;
   position: relative;
 }
@@ -42,7 +42,7 @@
 .page-post h5,
 .page-post h6 {
   font-size: 17px;
-  font-weight: bold;
+  font-weight: normal;
 }
 .page-post blockquote {
   border-left: 3px solid #333333;
@@ -93,6 +93,7 @@
   overflow: auto;
   border: 1px solid #eee;
   border-radius: 5px;
+  box-shadow: 0 0 9px 3px #8b949e;
   max-height: 610px;
   -moz-tab-size: 4;
   -o-tab-size: 4;
