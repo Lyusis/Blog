@@ -20,12 +20,14 @@
   width: 100%;
 }
 .page-post .post h1{
+  color: #8064a9;
   font-weight: bolder;
   font-size: 24px;
   text-align: center;
   position: relative;
 }
 .page-post .post h2 {
+  color: #8064a9;
   font-weight: bold;
   font-size: 18px;
   position: relative;
@@ -41,7 +43,8 @@
 .page-post h4,
 .page-post h5,
 .page-post h6 {
-  font-size: 17px;
+  color: #8064a9;
+  font-size: 18px;
   font-weight: normal;
 }
 .page-post blockquote {
