@@ -108,17 +108,22 @@
 }
 .page-post pre {
 
-  font-size: 0;
-  padding: 10px;
+  padding: 1rem;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 3px;
+  color: #777777;
+  margin-top: 0 !important;
+
   overflow: auto;
-  border: 1px solid #eee;
-  border-radius: 5px;
+  /*border: 1px solid #eee;*/
   box-shadow: 0 0 7px 2px #8b949e;
   max-height: 610px;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
-  line-height: 1.6;
 }
 .page-post code {
   font-size: 15px;
