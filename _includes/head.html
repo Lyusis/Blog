@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="content-language" content="zh-CN" />
   <meta name="theme-color" content="#ffffff" />
-  <meta name="supported-color-schemes" content="light dark">
+  <meta name="supported-color-schemes" content="light">
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="applicable-device" content="pc,mobile">
   <meta name="google-site-verification" content="ckhUaoa05QCmWoE1FafzTBcqYI4yBOy-UJKopXDS18M" />
@@ -33,23 +33,23 @@
       baseurl:"{{site.baseurl}}",
       buildAt:"{{buildAt}}",
       darkTheme: false,
-      setDarkTheme: function (dark) {
-        this.darkTheme = Boolean(dark);
-        document.documentElement.className = this.darkTheme ? 'dark': '';
-        document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkTheme ? '#2D2E32': '#FFFFFF');
-      }
+      // setDarkTheme: function (dark) {
+      //   this.darkTheme = Boolean(dark);
+      //   document.documentElement.className = this.darkTheme ? 'dark': '';
+      //   document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkTheme ? '#2D2E32': '#FFFFFF');
+      // }
     }
-    if (sessionStorage.darkTheme !== undefined) {
-      blog.setDarkTheme(sessionStorage.darkTheme === 'true'); // 记忆值，单个窗口内有效
-    } else {
-      blog.setDarkTheme(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); // 跟随系统
-    }
-    if (window.matchMedia) {
-      var media = window.matchMedia('(prefers-color-scheme: dark)');
-      media.addListener(function (ev) {
-        blog.setDarkTheme(ev.currentTarget.matches);
-        sessionStorage.removeItem('darkTheme');
-      });
-    }
+    // if (sessionStorage.darkTheme !== undefined) {
+    //   blog.setDarkTheme(sessionStorage.darkTheme === 'true'); // 记忆值，单个窗口内有效
+    // } else {
+    //   blog.setDarkTheme(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); // 跟随系统
+    // }
+    // if (window.matchMedia) {
+    //   var media = window.matchMedia('(prefers-color-scheme: dark)');
+    //   media.addListener(function (ev) {
+    //     blog.setDarkTheme(ev.currentTarget.matches);
+    //     sessionStorage.removeItem('darkTheme');
+    //   });
+    // }
   </script>
 </head>
