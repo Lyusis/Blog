@@ -97,6 +97,7 @@ input:-webkit-autofill {
   color: #f9f9f9;
 }
 .hover-underline {
+  color: #8064a9;
   position: relative;
 }
 .hover-underline:after {
