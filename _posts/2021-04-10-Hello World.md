@@ -3,6 +3,7 @@ layout: mypost
 title: Hello World
 categories: [Hello]
 ---
+## Hello World by Java
 ```java
 class Lyusis{
   public static void main(String[] args){
@@ -11,6 +12,7 @@ class Lyusis{
 }
 ```
 
+## Hello World by Go
 ```go
 package main
 
