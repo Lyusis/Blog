@@ -20,11 +20,11 @@
   width: 100%;
 }
 .page-post .post h1{
+  color: transparent;
+  background-image: linear-gradient(to top, #a18cd1 0%, #b35d9b 100%);
+  -webkit-background-clip: text;
+  line-height: 90px;
   margin: 0 auto;
-  max-width: 30%;
-  color: #8064a9;
-  padding-bottom:1px;
-  border-bottom:2px solid #8064a9;
   font-weight: bolder;
   font-size: 2.25em;
   text-align: center;
