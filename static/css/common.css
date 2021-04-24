@@ -11,9 +11,9 @@
 }
 
 @font-face {
-  font-family: 'FZXBXYWST';
+  font-family: 'FZXBXYW';
   font-display: fallback;
-  src: url("../font/FZXBXYWST.ttf");
+  src: url("../font/FZXBXYW.ttf");
 }
 
 .bg{
@@ -39,7 +39,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: Nier, FZXBXYWST, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: Nier, FZXBXYW, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
   max-width: 900px;
