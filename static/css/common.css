@@ -4,6 +4,18 @@
   src: url("../font/FiraCodeNFMono.ttf");
 }
 
+@font-face {
+  font-family: 'Nier';
+  font-display: fallback;
+  src: url("../font/NieR-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'FZXBXYWST';
+  font-display: fallback;
+  src: url("../font/FZXBXYWST.ttf");
+}
+
 .bg{
   position: absolute;
   background: url("../img/background.jpg") fixed center;
@@ -26,7 +38,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: FiraCode NF, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: Nier, FZXBXYWST, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
   max-width: 680px;
