@@ -51,7 +51,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: 'Hymmnos', 'FJCJ', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+  font-family: 'Nier', 'FJCJ', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
 }
 body {
   max-width: 900px;
