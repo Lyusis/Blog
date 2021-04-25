@@ -28,6 +28,12 @@
   src: url("../font/hymmnos.ttf");
 }
 
+@font-face {
+  font-family: 'Mamelon';
+  font-display: fallback;
+  src: url("../font/Mamelon-3.5-Hi-Regular.otf");
+}
+
 .bg{
   position: absolute;
   background: url("../img/background.jpg") fixed no-repeat center;
@@ -51,7 +57,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: 'Nier', 'FJCJ', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+  font-family: 'Nier', 'Hymmnos', 'FJCJ', 'Microsoft YaHei', 'Mamelon', sans-serif;
 }
 body {
   max-width: 900px;
