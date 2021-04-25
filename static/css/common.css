@@ -22,6 +22,12 @@
   src: url("../font/方正标圆.ttf");
 }
 
+@font-face {
+  font-family: 'Malachim';
+  font-display: fallback;
+  src: url("../font/malachim.ttf");
+}
+
 .bg{
   position: absolute;
   background: url("../img/background.jpg") fixed no-repeat center;
@@ -45,7 +51,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: Nier, FJCJ, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: Malachim, FJCJ, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 body {
   max-width: 900px;
