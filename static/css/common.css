@@ -57,7 +57,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: 'Nier', 'FJCJ', 'Microsoft YaHei', 'Mamelon', sans-serif;
+  font-family: 'FiraCode NF', 'FZBY', 'Microsoft YaHei', 'Mamelon', sans-serif;
 }
 body {
   max-width: 900px;
