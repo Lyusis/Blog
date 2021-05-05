@@ -4,6 +4,36 @@
   src: url("../font/FiraCodeNFMono.ttf");
 }
 
+@font-face {
+  font-family: 'Nier';
+  font-display: fallback;
+  src: url("../font/NieR-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'FJCJ';
+  font-display: fallback;
+  src: url("../font/佛君城建体.ttf");
+}
+
+@font-face {
+  font-family: 'FZBY';
+  font-display: fallback;
+  src: url("../font/方正标圆.ttf");
+}
+
+@font-face {
+  font-family: 'Hymmnos';
+  font-display: fallback;
+  src: url("../font/hymmnos.ttf");
+}
+
+@font-face {
+  font-family: 'Mamelon';
+  font-display: fallback;
+  src: url("../font/Mamelon-3.5-Hi-Regular.otf");
+}
+
 .bg{
   position: absolute;
   background: url("../img/background.jpg") fixed no-repeat center;
@@ -27,7 +57,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: FiraCode NF, 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: 'Nier', 'FJCJ', 'Microsoft YaHei', 'Mamelon', sans-serif;
 }
 body {
   max-width: 900px;
