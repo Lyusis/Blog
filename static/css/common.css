@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: 'Mono Regular';
+  font-display: fallback;
+  src: url("../font/B612Mono-Regular.ttf");
+}
+
+@font-face {
   font-family: 'Nier';
   font-display: fallback;
   src: url("../font/NieR-Regular.ttf");
@@ -57,7 +63,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: all 500ms ease;
-  font-family: 'FiraCode NF', 'FZBY', 'Microsoft YaHei', 'Mamelon', sans-serif;
+  font-family: 'Mono Regular', 'FZBY', 'Microsoft YaHei', 'Mamelon', sans-serif;
 }
 body {
   max-width: 900px;
