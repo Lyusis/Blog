@@ -5,7 +5,7 @@ title: Lyusis Blog
 description: Lyusis的个人博客
 keywords: Lyusis,Blog,Java,Go,Rust
 author: Lyusis and Internet
-footerText: 'Copyright © 2021 沪ICP备2021008919号'
+footerText: 'Copyright © 2021 Lyusis'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
