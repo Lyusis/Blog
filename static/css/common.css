@@ -41,7 +41,7 @@
 }
 
 .bg{
-  position: absolute;
+  position: fixed;
   background: url("../img/background.png") fixed no-repeat center;
   background-size: cover;
   z-index: -1;
