@@ -167,15 +167,19 @@
   border: 1px solid #dddddd;
 }
 .page-post tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 2px solid #dddddd;
 }
 .page-post th {
   font-weight: bold;
+  background-color: #af87ff;
 }
 .page-post th,
 .page-post td {
   padding: 5px 10px;
   text-align: left;
+}
+.page-post table tr:nth-child(odd) {
+  background-color: #ffffff;
 }
 .page-post table tr:nth-child(even) {
   background-color: #f9f9f9;
