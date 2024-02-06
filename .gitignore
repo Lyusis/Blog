@@ -1,11 +1,4 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-
-modules.xml
-vcs.xml
-Lyusis_Blog.iml
 .idea
-.vscode/settings.json
+.vscode
+
+node_modules
