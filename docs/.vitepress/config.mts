@@ -25,7 +25,7 @@ export default defineConfig({
                     {text: 'RabbitMQ', link: '/RabbitMQ'},
                     {text: 'Redis基础', link: '/Redis基础'},
                     {text: 'Shell编程基础', link: '/Shell编程基础'},
-                    {text: '使用Viper输出列表结构至配置文件', link: '/使用Viper输出列表结构至配置文件'},
+                    {text: 'Viper输出列表结构至配置文件', link: '/Viper输出列表结构至配置文件'},
                     {text: '垃圾回收基础', link: '/垃圾回收基础'},
                     {text: '广度优先搜索', link: '/广度优先搜索'},
                     {text: '网络编程基础', link: '/网络编程基础'},

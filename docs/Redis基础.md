@@ -47,7 +47,7 @@ Redis的字符串是一个由字节组成的序列, 跟Java中的ArrayList有些
 
 #### 指令操作
 
-```Redis
+```shell
 set key value: 添加一条String数据类型
 get key: 获取一条String类型数据
 mset key1 value1 key2 value2: 添加多条String数据类型
@@ -74,7 +74,7 @@ Hash也可以同于对象存储, 比如存储用户信息, 与字符串不一样
 
 #### 指令操作
 
-```Redis
+```shell
 # 添加某个属性值
 hset keyname field1 value1 field2 value2
 # 获取某个属性值
@@ -103,7 +103,7 @@ lists的应用场景非常多, 可以利用它轻松实现热销榜；可以实�
 
 #### 指令操作
 
-```Redis
+```shell
 # 左进
 lpush key value1 value2 value3...
 # 左出
@@ -126,7 +126,7 @@ Redis的sets类型是使用哈希表构造的, 因此复杂度是O(1), 它支持
 
 #### 指令操作
 
-```Redis
+```shell
 # 添加内容
 sadd key value1 value2
 # 查询key里所有的值
@@ -166,7 +166,7 @@ sorted sets内部的排序功能是通过「跳越列表」数据结构来实现
 
 #### 指令操作
 
-```Redis
+```shell
 # 添加元素
 zadd key score value [score value...]
 # 获取集合的值并按照score从小到大排列, 最小的是最上面

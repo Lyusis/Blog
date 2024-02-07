@@ -15,7 +15,7 @@ echo $var1
 
 ### 位置参数变量
 
-1. `$n`: n为数字, $0代表脚本本身, $1~$9代表第1~9个参数, 10以上的参数需要用大括号表示, 如${10}
+1. `$n`: n为数字, $0代表脚本本身, `$1`~`$9`代表第1~9个参数, 10以上的参数需要用大括号表示, 如`${10}`
 2. `$@`: 代表命令行所有参数, 但是每个参数区别对待
 3. `$*`: 代表命令行所有参数, 所有参数视为一个整体
 4. `$#`: 参数个数
@@ -731,30 +731,22 @@ print total;
 | -F   | 指定分隔符       |
 | -V   | 查看awk的版本号  |
 
-例: `awk -v num2=$num1 -v var1="$var" 'BEGIN{print num2,var1}' `
-
-​	 `awk -v num2=$num1 -v var1="$var" -f file `
+例: 
+<br>`awk -v num2=$num1 -v var1="$var" 'BEGIN{print num2,var1}' `
+<br>`awk -v num2=$num1 -v var1="$var" -f file `
 
 #### 数组的用法
 
-1. 打印元素: echo ${array[2]}
-
-2. 打印元素个数: echo ${#array[@]}
-
-3. 打印元素长度: echo ${#array[3]}
-
-4. 给元素赋值: array[3]="Li"
-
-5. 删除元素: unset array[2]; unset array
-
-6. 分片访问: echo ${array[@]:1:3}
-
-7. 元素内容替换: ${array[@]/e/E} 只替换第一个e
-
-   ​					  ${array[@]//e/E} 替换所有的e
-
+1. 打印元素: `echo ${array[2]}`
+2. 打印元素个数: `echo ${#array[@]}`
+3. 打印元素长度: `echo ${#array[3]}`
+4. 给元素赋值: `array[3]="Li"`
+5. 删除元素: `unset array[2]; unset array`
+6. 分片访问: `echo ${array[@]:1:3}`
+7. 元素内容替换: 
+<br>`${array[@]/e/E}` 只替换第一个e
+<br>`{array[@]//e/E}` 替换所有的e
 8. 遍历:
-
 ```shell
 for a in array
 do 
@@ -763,8 +755,3 @@ done
 ```
 
 **注:** 在awk中, 数组下标不仅可以使用1、2、3......, 还可以使用字符串作为数组下标
-
-
-
-
-
