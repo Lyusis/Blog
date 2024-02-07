@@ -5,7 +5,7 @@ export default defineConfig({
     base: '/',
     head: [
         [
-            'link', {rel: 'icon', href: './images/logo.png'}
+            'link', {rel: 'icon', href: './images/logo.jpeg'}
         ]
     ],
     themeConfig: {
