@@ -1,9 +1,8 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Lyusis Blog"
+  name: "杂记"
   tagline: 哀吾生之须臾，羡长江之无穷
   actions:
     - theme: brand
