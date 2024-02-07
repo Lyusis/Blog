@@ -5,7 +5,7 @@ export default defineConfig({
     base: '/',
     head: [
         [
-            'link', {rel: 'icon', href: './images/logo.jpeg'}
+            'link', {rel: 'icon', href: 'https://s2.loli.net/2024/02/07/rqctWVhsTIpx9K3.jpg'}
         ]
     ],
     themeConfig: {
