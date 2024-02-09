@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as n}from"./chunks/framework.pRwbWk_8.js";const E=JSON.parse('{"title":"innodb数据库","description":"","frontmatter":{},"headers":[],"relativePath":"innodb数据库.md","filePath":"innodb数据库.md"}'),t={name:"innodb数据库.md"},l=n("",20),e=[l];function h(p,k,o,d,r,c){return a(),i("div",null,e)}const y=s(t,[["render",h]]);export{E as __pageData,y as default};

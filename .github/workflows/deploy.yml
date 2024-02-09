@@ -28,19 +28,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
-      - uses: oven-sh/setup-bun@v1
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Install dependencies
-        run: bun install
-      - name: Resolve Error
-        run: |
-          cat ./node_modules/vitepress/dist/node/serve-TjCp41j0.js
-          sed -i '/isPlaintext,/d' ./node_modules/vitepress/dist/node/serve-TjCp41j0.js
+#      - name: Checkout
+#        uses: actions/checkout@v4
+#        with:
+#          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+#      - uses: oven-sh/setup-bun@v1
+#      - name: Setup Pages
+#        uses: actions/configure-pages@v4
+#      - name: Install dependencies
+#        run: bun install
       - name: Build with VitePress
         run: |
           bun docs:build

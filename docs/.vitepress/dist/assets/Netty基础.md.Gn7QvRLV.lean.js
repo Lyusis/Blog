@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n,V as a}from"./chunks/framework.pRwbWk_8.js";const v=JSON.parse('{"title":"Netty基础","description":"","frontmatter":{},"headers":[],"relativePath":"Netty基础.md","filePath":"Netty基础.md"}'),l={name:"Netty基础.md"},o=a("",15),r=[o];function i(p,h,d,c,s,C){return n(),t("div",null,r)}const _=e(l,[["render",i]]);export{v as __pageData,_ as default};

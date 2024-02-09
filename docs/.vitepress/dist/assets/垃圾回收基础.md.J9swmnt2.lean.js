@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as l}from"./chunks/framework.pRwbWk_8.js";const g=JSON.parse('{"title":"垃圾回收基础","description":"","frontmatter":{},"headers":[],"relativePath":"垃圾回收基础.md","filePath":"垃圾回收基础.md"}'),n={name:"垃圾回收基础.md"},t=l("",83),e=[t];function h(p,k,r,d,E,o){return a(),i("div",null,e)}const u=s(n,[["render",h]]);export{g as __pageData,u as default};

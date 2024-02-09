@@ -1,0 +1,1 @@
+import{_ as t,c as s,o as i,V as a}from"./chunks/framework.pRwbWk_8.js";const y=JSON.parse('{"title":"Shell编程基础","description":"","frontmatter":{},"headers":[],"relativePath":"Shell编程基础.md","filePath":"Shell编程基础.md"}'),e={name:"Shell编程基础.md"},d=a("",145),l=[d];function n(h,r,p,o,k,c){return i(),s("div",null,l)}const F=t(e,[["render",n]]);export{y as __pageData,F as default};

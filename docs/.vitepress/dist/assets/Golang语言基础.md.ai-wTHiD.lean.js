@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,V as n}from"./chunks/framework.pRwbWk_8.js";const F=JSON.parse('{"title":"Golang语言基础","description":"","frontmatter":{},"headers":[],"relativePath":"Golang语言基础.md","filePath":"Golang语言基础.md"}'),h={name:"Golang语言基础.md"},l=n("",40),k=[l];function p(t,e,E,r,d,g){return a(),i("div",null,k)}const c=s(h,[["render",p]]);export{F as __pageData,c as default};
