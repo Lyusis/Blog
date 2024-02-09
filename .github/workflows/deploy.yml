@@ -39,7 +39,6 @@ jobs:
 #        run: bun install
       - name: Build with VitePress
         run: |
-#          bun docs:build
           ls -al
           touch docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
