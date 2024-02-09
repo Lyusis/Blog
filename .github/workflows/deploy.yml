@@ -39,7 +39,7 @@ jobs:
 #        run: bun install
       - name: Build with VitePress
         #          bun docs:build
-        run: touch docs/.vitepress/dist/.nojekyll
+        run: touch ./docs/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
